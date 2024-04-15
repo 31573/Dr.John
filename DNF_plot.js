@@ -12,7 +12,7 @@ d3.json("DNF_output.json").then(function(data) {
     statuses.push(row.status);
   }
 console.log(locations);
-  // Initialize an empty object to store counts------------------------------------------
+  // Initialize an empty object to store counts-----------------------------------------------------------------
   let counts = {};
 
   // Iterate over the locations array
@@ -42,9 +42,8 @@ console.log(locations);
   });
   // Output the sorted counts
   console.log(sortedCounts);
-  console.log(counts);
 
-  // Count occurrences of each status -------------------------------
+  // Count occurrences of each status -----------------------------------------------------------------------------------
   let statusCounts = {};
   statuses.forEach(status => {
     if (!statusCounts[status]) {
@@ -53,7 +52,7 @@ console.log(locations);
       statusCounts[status]++;
     }
   });
-  // Create data for the bar graph-------------------------------------------------
+  // Create data for the bar graph----------------------------------------------------------------------------------------
   let trace1 = {
     x: Object.keys(sortedCounts),
     y: Object.values(sortedCounts),
