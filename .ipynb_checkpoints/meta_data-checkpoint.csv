@@ -1,4 +1,4 @@
-,driver_id,carno,initials,name,race_id,team,teamcolor,enginemanufacturer,gridposition,status,resultposition,completedlaps,speedtrap,date,season,location,availablecompounds,comment,nolaps,nolapsplanned,tracklength,accidents,failures
+,driver_id,carno,initials,name,race_id,team,teamcolor,enginemanufacturer,gridposition,status,resultposition,completedlaps,speedtrap,date,season,location,availablecompounds,comment,nolaps,nolapsplanned,tracklength,"accidents per driver, per season","failures per driver, per season"
 0,1,44,HAM,Lewis Hamilton,1,Mercedes,#00D2BE,Mercedes,1,DNF,19,2,252.8,2014-03-16,2014,Melbourne,"A2,A3,I,W",,57,58,5303,0.0,3.0
 1,1,44,HAM,Lewis Hamilton,2,Mercedes,#00D2BE,Mercedes,1,F,1,56,305.9,2014-03-30,2014,KualaLumpur,"A1,A2,I,W",,56,56,5543,0.0,3.0
 2,1,44,HAM,Lewis Hamilton,3,Mercedes,#00D2BE,Mercedes,2,F,1,57,313.4,2014-04-06,2014,Sakhir,"A2,A3,I,W","Crash GUT in lap 41, SC somewhen in the end of lap 41 or beginning of lap 42",57,57,5412,0.0,3.0
