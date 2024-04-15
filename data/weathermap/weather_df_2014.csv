@@ -1,0 +1,20 @@
+season,date,weather,circuitName,lat,long,location,country
+2014,2014-03-16,"overcast, 19°c (66°f) dry",Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+2014,2014-03-30,"dry , 32°c dry",Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia
+2014,2014-04-06,dry  ,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2014,2014-04-20,"mostly cloudy , dry  ",Shanghai International Circuit,31.3389,121.22,Shanghai,China
+2014,2014-05-11,sunny  ,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2014,2014-05-25,"overcast, air  20.5°c  (69.0°f), track  29.0°c  (84.0°f). ",Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+2014,2014-06-08,temperatures up to 27.6°c  (81.7°f)  wind speeds up to 16.4 kilometres per hour  (10.2mph) ,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+2014,2014-06-22,"partially cloudy , hot and dry  ",Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2014,2014-07-06,mostly cloudy  with maximum temperatures reaching 21 degrees during the day. ,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2014,2014-07-20,cloudy  with maximum temperatures reaching 26 degrees during the day. ,Hockenheimring,49.3278,8.56583,Hockenheim,Germany
+2014,2014-07-27,"overcast. wet track at start, then drying scattered thunderstorms during the day, temperatures reaching a maximum of 26 degrees. ",Hungaroring,47.5789,19.2486,Budapest,Hungary
+2014,2014-08-24,mostly cloudy  ,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2014,2014-09-07,"sunny   air  25°c  (77°f), track  39.5°c  (103.5°f) ",Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2014,2014-09-21,clear . air  29.0°c  (84.0°f) track  35.0°c  (95.0°f). ,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore
+2014,2014-10-05,rain. air  20°c  (68°f) track  24°c  (75°f) ,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+2014,2014-10-12,"fine and dry  21°c  (70°f) ambient temperature ,33°c  (91°f) track temperature  ",Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2014,2014-11-02,"sunny , ",Circuit of the Americas,30.1328,-97.6411,Austin,USA
+2014,2014-11-09,"sunny , air  23.5°c  (74.0°f), track  48.0°c  (118.5°f) ",Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+2014,2014-11-23,"clear  skies  air temp  30 °c  (86 °f) during the day, dropping to 24 °c  (75.2 °f). wind speed  8 km/h  (4.9 mph).  (night race) ",Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE

@@ -1,0 +1,22 @@
+season,date,weather,circuitName,lat,long,location,country
+2019,2019-03-17,None dry   23.6°c,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+2019,2019-03-31,clear  dry   26°c,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2019,2019-04-14,None dry   19.3°c,Shanghai International Circuit,31.3389,121.22,Shanghai,China
+2019,2019-05-12,None dry   19.75°c,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2019,2019-05-26,overcast dry   23.15°c,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+2019,2019-06-09,temperatures reaching up to 29.6°c  (85.3°f)  wind speeds negligible dry   29.7°c,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+2019,2019-06-30,"sunny , 36c  (97f) dry   34°c",Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2019,2019-07-14,partly cloudy  dry   18.3°c,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2019,2019-07-28,"early rain, late clouds wet   21.2°c",Hockenheimring,49.3278,8.56583,Hockenheim,Germany
+2019,2019-08-04,sunny  dry   26.8°c,Hungaroring,47.5789,19.2486,Budapest,Hungary
+2019,2019-09-01,partly cloudy  dry   17.25°c,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2019,2019-09-08,partly cloudy  dry   22.3°c,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2019,2019-09-22,slightly hazy dry   30.3°c,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore
+2019,2019-10-13,sunny  dry   21.75°c,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+2019,2019-09-29,partly cloudy  dry   22.35°c,Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2019,2019-11-03,sunny  dry   21.3°c,Circuit of the Americas,30.1328,-97.6411,Austin,USA
+2019,2019-11-17,sunny  dry  20.4°c,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+2019,2019-12-01,clear  dry  25.85°c,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
+2019,2019-10-27,partly cloudy  dry   22.3°c,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico
+2019,2019-04-28,None dry   20.0°c,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan
+2019,2019-06-23,clear  dry   26.25°c,Circuit Paul Ricard,43.2506,5.79167,Le Castellet,France

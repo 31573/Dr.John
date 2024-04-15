@@ -1,0 +1,22 @@
+season,date,weather,circuitName,lat,long,location,country
+2018,2018-03-25,sunny  23.9°c dry  sunny,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+2018,2018-04-08,None dry   29.6°c,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2018,2018-04-15,None dry   18.9°c,Shanghai International Circuit,31.3389,121.22,Shanghai,China
+2018,2018-05-13,"partially cloudy  and dry , 16°c and cold. dry 15.4°c",Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2018,2018-05-27,None dry 25.9°c,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+2018,2018-06-10,temperatures reaching up to 22.7°c  (72.9°f)  with wind speeds reaching 11.1 kilometres per hour  (6.9mph) dry 20°c,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+2018,2018-07-01,sunny  dry   22.9°c,Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2018,2018-07-08,sunny  27.0°c  (80.6°f) dry 26.7°c,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2018,2018-07-22,overcast with intermittent rain dry wet 25.4°c,Hockenheimring,49.3278,8.56583,Hockenheim,Germany
+2018,2018-07-29,None sunny  34.2°c,Hungaroring,47.5789,19.2486,Budapest,Hungary
+2018,2018-08-26,None dry  17.3°c,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2018,2018-09-02,None dry  20.9°c,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2018,2018-09-16,None dry 29.7°c,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore
+2018,2018-10-07,None dry 29.4°c,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+2018,2018-09-30,None dry 23.4°c,Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2018,2018-10-21,None dry 20.9°c,Circuit of the Americas,30.1328,-97.6411,Austin,USA
+2018,2018-11-11,None dry 24°c,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+2018,2018-11-25,None partly clouded  dry,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
+2018,2018-10-28,None dry 18.5°c,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico
+2018,2018-04-29,cloudy  dry 17.1°c,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan
+2018,2018-06-24,"partially cloudy , warm and dry  dry 25.2°c",Circuit Paul Ricard,43.2506,5.79167,Le Castellet,France
