@@ -1,6 +1,5 @@
-
-
-d3.json("C:/Users/Elsie/Desktop/Data-Analyst/Challenges/Dr.John/DNF_output.json", function(data) {
+console.log('i')
+d3.json("DNF_output.json").then(function(data) {
   // Initialized arrays
   let locations = [];
   let statuses = [];
