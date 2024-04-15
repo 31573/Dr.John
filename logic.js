@@ -6,7 +6,6 @@ function optionChanged(year){
 
 
 d3.json("DNF_output.json").then(function(data) {
-    console.log(data[474])
     // Initialized arrays
     let locations = [];
     let statuses = [];
@@ -21,15 +20,15 @@ d3.json("DNF_output.json").then(function(data) {
     console.log(data.length);
     // For loop to populate arrays
     for (let i = 0; i < data.length; i++) {
-      let row = data[i];
-      locations.push(row.location);
-      statuses.push(row.status);
-      if (data[i].season = 2014) {data2014.push(data[i])}
-      else if (data[i].season = 2015) {data2015.push(data[i])}
-      else if (data[i].season = 2016) {data2016.push(data[i])}
-      else if (data[i].season = 2017) {data2017.push(data[i])}
-      else if (data[i].season = 2018) {data2018.push(data[i])}
-      else {data2019.push(data[i])}
+        let row = data[i];
+        locations.push(row.location);
+        statuses.push(row.status);
+        if (data[i].season = 2014) {data2014.push(data[i])}
+        else if (data[i].season = 2015) {data2015.push(data[i])}
+        else if (data[i].season = 2016) {data2016.push(data[i])}
+        else if (data[i].season = 2017) {data2017.push(data[i])}
+        else if (data[i].season = 2018) {data2018.push(data[i])}
+        else {data2019.push(data[i])}
     };
     console.log(data2017.length);
     // Initialize an empty object to store counts-----------------------------------------------------------------
