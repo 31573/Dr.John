@@ -1,0 +1,162 @@
+season,date,weather,circuitName,lat,long,location,country
+2014,2014-03-16,"overcast, 19°c (66°f) dry",Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+2015,2015-03-15,partly cloudy 17.5°c  (63.5°f) air temperature 34.5°c  (94.5°f) track temperature 6m/s  (20ft/s) wind from the south ,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+2016,2016-03-20,partly cloudy 22.5°c  (72.5°f) air temperature 31.0°c  (88.0°f) track temperature 4m/s  (8.9mph  14km/h) wind from the south dry light clouds,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+2017,2017-03-26,partly cloudy 24°c  (75°f) air temperature 33.5°c  (92.5°f) track temperature 2m/s  (4.5mph  7.2km/h) wind from the northwest sunny dry 23°c,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+2018,2018-03-25,sunny  23.9°c dry  sunny,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+2019,2019-03-17,None dry   23.6°c,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+2021,2021-11-21, ,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+2014,2014-03-30,"dry , 32°c dry",Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia
+2015,2015-03-29,sunny 32.5°c  (90.5°f) air temperature 55.5°c  (131.5°f) track temperature 2m/s  (6.6ft/s) wind from the south 33°c dry,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia
+2016,2016-10-02,sunny 33°c  (91°f) air temperature 49°c  (120°f) track temperature 2.8m/s  (9.2ft/s) wind from the west 32°c dry sunny,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia
+2017,2017-10-01,cloudy  31°c dry  cloudy,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia
+2014,2014-04-06,dry  ,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2015,2015-04-19,"sunny , clear 25.0°c  (77.0°f) air temperature 29.5°c  (85.0°f) track temperature 1.5m/s  (4.9ft/s) wind from the north dry 25°c",Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2016,2016-04-03,dry 21.5°c  (71.0°f) air temperature 27.5°c  (81.5°f) track temperature 2m/s  (6.6ft/s) wind from the southwest dry clear sky,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2017,2017-04-16,None 31°c dry,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2018,2018-04-08,None dry   29.6°c,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2019,2019-03-31,clear  dry   26°c,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2020,2020-11-29,clear  dry  25.5°c,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2020,2020-12-06,clear  dry  21.3°c,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2021,2021-03-28,"clear , 21°c  (70°f) dry  20.5°c",Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2014,2014-04-20,"mostly cloudy , dry  ",Shanghai International Circuit,31.3389,121.22,Shanghai,China
+2015,2015-04-12,sunny 21°c  (70°f) air temperature 46°c  (115°f) track temperature 1.4m/s  (4.6ft/s) wind from the northwest dry 21°c,Shanghai International Circuit,31.3389,121.22,Shanghai,China
+2016,2016-04-17,sunny 21°c  (70°f) air temperature 37°c  (99°f) track temperature 4.8m/s  (16ft/s) wind from the northeast dry sunny,Shanghai International Circuit,31.3389,121.22,Shanghai,China
+2017,2017-04-09,"light rain at start, drying later . 12°c",Shanghai International Circuit,31.3389,121.22,Shanghai,China
+2018,2018-04-15,None dry   18.9°c,Shanghai International Circuit,31.3389,121.22,Shanghai,China
+2019,2019-04-14,None dry   19.3°c,Shanghai International Circuit,31.3389,121.22,Shanghai,China
+2014,2014-05-11,sunny  ,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2015,2015-05-10,sunny 25°c  (77°f) air temperature 44°c  (111°f) track temperature 1.8m/s  (5.9ft/s) wind from the northeast dry clear sky 30°c,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2016,2016-05-15,partly cloudy 21.0°c  (70.0°f) air temperature 40.0°c  (104.0°f) track temperature 2m/s  (6.6ft/s) wind from the north dry sunny,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2017,2017-05-14,None sunny clear sky 24°c,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2018,2018-05-13,"partially cloudy  and dry , 16°c and cold. dry 15.4°c",Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2019,2019-05-12,None dry   19.75°c,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2020,2020-08-16,partly cloudy  dry  29.9°c,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2021,2021-05-09,cloudy  dry  21.4°c,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2014,2014-05-25,"overcast, air  20.5°c  (69.0°f), track  29.0°c  (84.0°f). ",Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+2015,2015-05-24,partly cloudy 18.5°c  (65.0°f) air temperature 34.0°c  (93.5°f) track temperature 1.5m/s  (4.9ft/s) wind from the west dry clear sky 17°c,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+2016,2016-05-29,"rainy at start, dry  later 17.5°c  (63.5°f) air temperature 21.0°c  (70.0°f) track temperature 2m/s  (6.6ft/s) wind from the north wet  overcast",Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+2017,2017-05-28,None sunny clear sky 26°c,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+2018,2018-05-27,None dry 25.9°c,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+2019,2019-05-26,overcast dry   23.15°c,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+2021,2021-05-23,sunny  dry  21°c,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+2014,2014-06-08,temperatures up to 27.6°c  (81.7°f)  wind speeds up to 16.4 kilometres per hour  (10.2mph) ,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+2015,2015-06-07,sunny 20.5°c  (69.0°f) air temperature 39°c  (102°f) track temperature 4m/s  (13ft/s) wind from the north dry clouded 20°c,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+2016,2016-06-12,cloudy 12°c  (54°f) air temperature 22.0°c  (71.5°f) track temperature 2.5m/s  (8.2ft/s) wind from the southeast 13°c dry clouded,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+2017,2017-06-11,sunny  and hot with temperatures reaching up to 29°c  (84°f)  wind speeds reaching 12.9 kilometres per hour  (8.0mph) sunny clear sky 29°c,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+2018,2018-06-10,temperatures reaching up to 22.7°c  (72.9°f)  with wind speeds reaching 11.1 kilometres per hour  (6.9mph) dry 20°c,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+2019,2019-06-09,temperatures reaching up to 29.6°c  (85.3°f)  wind speeds negligible dry   29.7°c,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+2014,2014-06-22,"partially cloudy , hot and dry  ",Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2015,2015-06-21,cloudy 14.5°c  (58.0°f) air temperature 29.5°c  (85.5°f) track temperature 2m/s  (6.6ft/s) wind from the west dry clouded 16°c,Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2016,2016-07-03,cloudy  18°c dry sunny,Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2017,2017-07-09,partly cloudy  sunny clear sky 22°c,Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2018,2018-07-01,sunny  dry   22.9°c,Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2019,2019-06-30,"sunny , 36c  (97f) dry   34°c",Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2020,2020-07-05,sunny  dry   27.6°c,Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2020,2020-07-12,sunny  dry   20°c,Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2021,2021-06-27,partly cloudy . ambient temperature   27.0°c  (80.5°f)  surface temperature   52.0°c  (125.5°f) ,Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2021,2021-07-04,partly cloudy  ,Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2014,2014-07-06,mostly cloudy  with maximum temperatures reaching 21 degrees during the day. ,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2015,2015-07-05,"cloudy , rain at times 18.5°c  (65.5°f) air temperature 28.0°c  (82.5°f) track temperature 2.5m/s  (8.2ft/s) wind from the east dry clouded 22°c",Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2016,2016-07-10,"wet at start, dry  later  15°c wet dry overcast",Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2017,2017-07-16,overcast sunny clear sky 23°c,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2018,2018-07-08,sunny  27.0°c  (80.6°f) dry 26.7°c,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2019,2019-07-14,partly cloudy  dry   18.3°c,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2020,2020-08-02,partly cloudy  dry  21°c,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2020,2020-08-09,sunny  dry  24°c,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2021,2021-07-18,clear . ambient  30.0°c  (86.0°f)  surface  50.0°c  (122.0°f) ,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2014,2014-07-20,cloudy  with maximum temperatures reaching 26 degrees during the day. ,Hockenheimring,49.3278,8.56583,Hockenheim,Germany
+2016,2016-07-31,partially cloudy  and dry  ,Hockenheimring,49.3278,8.56583,Hockenheim,Germany
+2018,2018-07-22,overcast with intermittent rain dry wet 25.4°c,Hockenheimring,49.3278,8.56583,Hockenheim,Germany
+2019,2019-07-28,"early rain, late clouds wet   21.2°c",Hockenheimring,49.3278,8.56583,Hockenheim,Germany
+2014,2014-07-27,"overcast. wet track at start, then drying scattered thunderstorms during the day, temperatures reaching a maximum of 26 degrees. ",Hungaroring,47.5789,19.2486,Budapest,Hungary
+2015,2015-07-26,sunny 23.0°c  (73.5°f) air temperature 44.5°c  (112.0°f) track temperature 3.2m/s  (10ft/s) wind from the east dry clear 26°c,Hungaroring,47.5789,19.2486,Budapest,Hungary
+2016,2016-07-24,sunny  25°c dry sunny,Hungaroring,47.5789,19.2486,Budapest,Hungary
+2017,2017-07-30,sunny  sunny clear sky 27°c,Hungaroring,47.5789,19.2486,Budapest,Hungary
+2018,2018-07-29,None sunny  34.2°c,Hungaroring,47.5789,19.2486,Budapest,Hungary
+2019,2019-08-04,sunny  dry   26.8°c,Hungaroring,47.5789,19.2486,Budapest,Hungary
+2020,2020-07-19,"wet at start, partly cloudy  dry   21.6°c",Hungaroring,47.5789,19.2486,Budapest,Hungary
+2021,2021-08-01,None ,Hungaroring,47.5789,19.2486,Budapest,Hungary
+2014,2014-08-24,mostly cloudy  ,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2015,2015-08-23,cloudy 23°c  (73°f) air temperature 35.0°c  (95.0°f) track temperature 3.5m/s  (11ft/s) wind from the northwest dry clear sky 23°c,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2016,2016-08-28,partially cloudy  and dry  25°c dry clear,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2017,2017-08-27,partially cloudy  and dry  23°c dry sunny,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2018,2018-08-26,None dry  17.3°c,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2019,2019-09-01,partly cloudy  dry   17.25°c,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2020,2020-08-30,partly cloudy  dry  19.3°c,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2021,2021-08-29, ,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2014,2014-09-07,"sunny   air  25°c  (77°f), track  39.5°c  (103.5°f) ",Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2015,2015-09-06,partly cloudy 22.5°c  (72.5°f) air temperature 38.5°c  (101.0°f) track temperature 1.5m/s  (4.9ft/s) wind from changing directions dry clear sky 22°c,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2016,2016-09-04,"sunny , warm 29°c dry clear",Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2017,2017-09-03,sunny  25°c dry sunny,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2018,2018-09-02,None dry  20.9°c,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2019,2019-09-08,partly cloudy  dry   22.3°c,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2020,2020-09-06,sunny  dry  27.8°c,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2021,2021-09-12, ,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2014,2014-09-21,clear . air  29.0°c  (84.0°f) track  35.0°c  (95.0°f). ,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore
+2015,2015-09-20,dry 28.5°c  (83.0°f) air temperature 35.0°c  (95.0°f) track temperature 0.5m/s  (1.6ft/s) wind from the west dry clear sky 30°c,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore
+2016,2016-09-18,clear 30°c  (86°f) air temperature 34.5°c  (94.0°f) track temperature 1.5m/s  (4.9ft/s) wind from the east 30°c dry sunny,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore
+2017,2017-09-17,"wet at start, then drying air temperature   28°c  (82°f) 28°c wet  raining",Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore
+2018,2018-09-16,None dry 29.7°c,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore
+2019,2019-09-22,slightly hazy dry   30.3°c,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore
+2014,2014-10-05,rain. air  20°c  (68°f) track  24°c  (75°f) ,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+2015,2015-09-27,partly cloudy 27°c  (81°f) air temperature 53.0°c  (127.5°f) track temperature 4.5m/s  (15ft/s) wind from the east dry clouded 27°c,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+2016,2016-10-09,cloudy  19°c dry,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+2017,2017-10-08,sunny  26°c dry  sunny,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+2018,2018-10-07,None dry 29.4°c,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+2019,2019-10-13,sunny  dry   21.75°c,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+2021,2021-10-10, ,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+2014,2014-10-12,"fine and dry  21°c  (70°f) ambient temperature ,33°c  (91°f) track temperature  ",Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2015,2015-10-11,partly cloudy 18°c  (64°f) air temperature 26.0°c  (79.0°f) track temperature 1.5m/s  (4.9ft/s) wind from the north dry partly clouded 17°c,Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2016,2016-05-01,partly cloudy 16°c  (61°f) air temperature 39.0°c  (102.5°f) track temperature 2.5m/s  (8.2ft/s) wind from the southwest dry sunny,Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2017,2017-04-30,None sunny clear sky 26°c,Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2018,2018-09-30,None dry 23.4°c,Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2019,2019-09-29,partly cloudy  dry   22.35°c,Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2020,2020-09-27,sunny  dry  30.1°c,Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2021,2021-09-26, ,Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2014,2014-11-02,"sunny , ",Circuit of the Americas,30.1328,-97.6411,Austin,USA
+2015,2015-10-25,very cloudy 17°c  (63°f) air temperature 18.5°c  (65.5°f) track temperature 8m/s  (26ft/s) wind from the south dry clouded 17°c,Circuit of the Americas,30.1328,-97.6411,Austin,USA
+2016,2016-10-23,sunny  and hot with temperatures reaching up to 84°f  (29°c)  wind speeds approaching speeds of 9.2 miles per hour  (14.8km/h) 19°c dry,Circuit of the Americas,30.1328,-97.6411,Austin,USA
+2017,2017-10-22,sunny  with temperatures reaching up to 82.9°f  (28.3°c)  wind speeds approaching speeds of 13.8 miles per hour  (22.2km/h) 25°c dry  clear sky,Circuit of the Americas,30.1328,-97.6411,Austin,USA
+2018,2018-10-21,None dry 20.9°c,Circuit of the Americas,30.1328,-97.6411,Austin,USA
+2019,2019-11-03,sunny  dry   21.3°c,Circuit of the Americas,30.1328,-97.6411,Austin,USA
+2021,2021-10-24, ,Circuit of the Americas,30.1328,-97.6411,Austin,USA
+2014,2014-11-09,"sunny , air  23.5°c  (74.0°f), track  48.0°c  (118.5°f) ",Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+2015,2015-11-15,dry 25.0°c  (77.0°f) air temperature 43.0°c  (109.0°f) track temperature 2.5m/s  (8.2ft/s) wind from the north dry overcast 22°c,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+2016,2016-11-13,rain and 16°c  (60.8°f) 18°c clouds  rain,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+2017,2017-11-12,None 27°c clear sky  sunny,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+2018,2018-11-11,None dry 24°c,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+2019,2019-11-17,sunny  dry  20.4°c,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+2021,2021-11-07, ,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+2014,2014-11-23,"clear  skies  air temp  30 °c  (86 °f) during the day, dropping to 24 °c  (75.2 °f). wind speed  8 km/h  (4.9 mph).  (night race) ",Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
+2015,2015-11-29,clear 26.0°c  (79.0°f) air temperature 28.5°c  (83.0°f) track temperature 1.5m/s  (4.9ft/s) wind from the south dry clear sky 25°c,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
+2016,2016-11-27,sunny  27°c dry  sunny,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
+2017,2017-11-26,clear  24°c dry  sunny,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
+2018,2018-11-25,None partly clouded  dry,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
+2019,2019-12-01,clear  dry  25.85°c,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
+2020,2020-12-13,clear  dry  22.4°c,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
+2021,2021-12-12, ,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
+2015,2015-11-01,partly cloudy 23.0°c  (73.5°f) air temperature 52.0°c  (125.5°f) track temperature 1.5m/s  (4.9ft/s) wind from the northwest wet clouded 26°c,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico
+2016,2016-10-30,sunny  19°c dry,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico
+2017,2017-10-29,"sunny , dry  21°c dry  sunny",Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico
+2018,2018-10-28,None dry 18.5°c,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico
+2019,2019-10-27,partly cloudy  dry   22.3°c,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico
+2021,2021-10-31, ,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico
+2016,2016-06-19,partly cloudy 31.5°c  (88.5°f) air temperature 42.0°c  (107.5°f) track temperature 2.5m/s  (8.2ft/s) wind from the southeast 25°c dry sunny,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan
+2017,2017-06-25,sunny  sunny clear sky 26°c,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan
+2018,2018-04-29,cloudy  dry 17.1°c,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan
+2019,2019-04-28,None dry   20.0°c,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan
+2021,2021-06-06,sunny  dry  24.5°c,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan
+2018,2018-06-24,"partially cloudy , warm and dry  dry 25.2°c",Circuit Paul Ricard,43.2506,5.79167,Le Castellet,France
+2019,2019-06-23,clear  dry   26.25°c,Circuit Paul Ricard,43.2506,5.79167,Le Castellet,France
+2021,2021-06-20,windy and partly cloudy . ambient temperature   25.5°c  (78.0°f)  surface temperature   35.5°c  (95.5°f) ,Circuit Paul Ricard,43.2506,5.79167,Le Castellet,France
+2020,2020-09-13,sunny  dry  30.3°c,Autodromo Internazionale del Mugello,43.9975,11.3719,Mugello,Italy
+2020,2020-10-11,"partly cloudy , 10°c  (50°f) dry  9.8°c",Nürburgring,50.3356,6.9475,Nürburg,Germany
+2020,2020-10-25,cloudy  dry   25.4°c,Autódromo Internacional do Algarve,37.227,-8.6267,Portimão,Portugal
+2021,2021-05-02,light cloud dry  19.5°c,Autódromo Internacional do Algarve,37.227,-8.6267,Portimão,Portugal
+2020,2020-11-01,partly cloudy  dry  18°c,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy
+2021,2021-04-18,"wet at start, drying during race, 9°c  (48°f) wet  9.45°c",Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy
+2020,2020-11-15,overcast. wet and drying track. air  12.5°c  (54.5°f)  track  15.5°c  (60.0°f) 13.1°c,Istanbul Park,40.9517,29.405,Istanbul,Turkey
+2021,2021-10-03, ,Istanbul Park,40.9517,29.405,Istanbul,Turkey
+2021,2021-09-05, ,Circuit Park Zandvoort,52.3888,4.54092,Zandvoort,Netherlands
+2021,2021-12-05, ,Jeddah Street Circuit,21.5433,39.1728,Jeddah,Saudi Arabia
