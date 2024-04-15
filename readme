@@ -1,0 +1,56 @@
+Connecting a Postgresql Database to JavaScript
+
+1. Install Node.js.
+    There are many ways to install Node.js but I went directly to the Node.js website and used their installer: https://nodejs.org/en/download/
+2. Install the pg package in your project folder*
+    In Terminal (Mac) or GitBash (Windows), navigate to the folder where your project files are, then run:
+        npm install pg
+    * Note: In my research I found many different ways to connect Postgres and JavaScript. One site suggested downloading other packages. I did just to be safe, but you may not need them. If, after following these directions, your connection isn't working, come back to this step, install the packages below, and try again:
+        npm install pg db-migrate-pg dotenv
+    
+    Installing these packages will automatically create loads of new files and some folders in your project folder.
+
+    I also installed these on my dev and base environments, and at the highest folder level (e.g., Users/Dan) just to be safe.
+3. Keep your Terminal/GitBash console open, you'll need it later.
+4. In VS Code, create a new file called connect.js
+    Copy and paste the following code:
+        const { Client } = require('pg');
+
+        const connectionString = 'postgres://postgres:postgres@localhost:5432/<your-postgres-database>';
+        const pgClient = new Client({
+        connectionString: connectionString
+        });
+
+        pgClient.connect();
+
+        pgClient.query('SELECT * from <your-table-in-postgres>', (err, res) => {
+        if (err) {
+            console.error(err);
+            pgClient.end();
+            return;
+        }
+
+        const data = res.rows;
+        console.log(data); // Verify the data
+
+        // Store the data in a JavaScript file
+        const fs = require('fs');
+        fs.writeFileSync('data.js', `const data = ${JSON.stringify(data)};`);
+
+        pgClient.end();
+        });
+
+        Note that you'll need to enter the name of your own database and the name of a table within that database that you want to retreive.
+
+        The code above will take the table from the database and convert it to a new file, data.js, that has the table as JSON string data. The data.js file will live in the same folder as your other files.
+5. Make sure you have an index.html file in your project folder. I used the same index.html file from our Module 15 challenge.
+6. Go back to your Terminal/GitBash console and run:
+    npm init -y
+7. Still in the console, run:
+    node connect.js
+8. In VS Code, open the index.html file and open with Live Server.
+9. Inspect the file to make sure the data came through.
+
+You may need to play around with the order of the last few steps.
+
+IMPORTANT: It seems like every time you make a change to the connect.js file, you have to go back to the console and re-run node connect.js for the changes to take effect.

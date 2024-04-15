@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "pg": "^8.11.5"
+  },
+  "name": "dr.john",
+  "version": "1.0.0",
+  "main": "connect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
