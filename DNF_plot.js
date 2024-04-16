@@ -2,7 +2,7 @@
 // Make a request to fetch the JSON data from the URL
 d3.json("https://raw.githubusercontent.com/31573/Dr.John/main/meta_data_inclusive_output.json")
   .then(function(data) {
-    // This function will be executed when the data is successfully fetched
+     // This function will be executed when the data is successfully fetched
     console.log(data); // Output the fetched data to the console for verification
 
     // Extract unique locations and count DNF occurrences for each location
