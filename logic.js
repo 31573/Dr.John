@@ -3,8 +3,8 @@ let seasons=["2014","2015","2016","2017","2018","2019"];
 function optionChanged(year){
     console.log(year)
 };
-
-
+// -------------------------------------------------------
+// -------------------------------------------------------
 d3.json("DNF_output.json").then(function(data) {
     // Initialized arrays
     let locations = [];
@@ -16,8 +16,7 @@ d3.json("DNF_output.json").then(function(data) {
     let data2018 = [];
     let data2019 = [];
 
-  
-    console.log(data.length);
+
     // For loop to populate arrays
     for (let i = 0; i < data.length; i++) {
         let row = data[i];
@@ -30,7 +29,6 @@ d3.json("DNF_output.json").then(function(data) {
         else if (data[i].season = 2018) {data2018.push(data[i])}
         else {data2019.push(data[i])}
     };
-    console.log(data2017.length);
     // Initialize an empty object to store counts-----------------------------------------------------------------
     let counts = {};
   
