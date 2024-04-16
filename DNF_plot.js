@@ -1,6 +1,5 @@
 
-
-d3.json("C:/Users/Elsie/Desktop/Data-Analyst/Challenges/Dr.John/DNF_output.json", function(data) {
+d3.json("DNF_output.json").then(function(data) {
   // Initialized arrays
   let locations = [];
   let statuses = [];
@@ -11,10 +10,40 @@ d3.json("C:/Users/Elsie/Desktop/Data-Analyst/Challenges/Dr.John/DNF_output.json"
     let row = data[i];
     locations.push(row.location);
     statuses.push(row.status);
-    console.log(row);
   }
+console.log(locations);
+  // Initialize an empty object to store counts-----------------------------------------------------------------
+  let counts = {};
 
-  // Count occurrences of each status
+  // Iterate over the locations array
+  locations.forEach(function(location) {
+    // If the location is not already a key in the counts object, initialize it with a count of 1
+    if (!counts[location]) {
+        counts[location] = 1;
+    } else {
+        // If the location is already a key, increment its count
+        counts[location]++;
+    }
+});
+
+
+  // Convert counts object to array of key-value pairs
+  let countsArray = Object.entries(counts);
+
+  // Sort the array based on counts (descending order)
+  countsArray.sort(function(a, b) {
+    return b[1] - a[1];
+  });
+
+  // If you want to convert the sorted array back to an object
+  let sortedCounts = {};
+  countsArray.forEach(function(pair) {
+    sortedCounts[pair[0]] = pair[1];
+  });
+  // Output the sorted counts
+  console.log(sortedCounts);
+
+  // Count occurrences of each status -----------------------------------------------------------------------------------
   let statusCounts = {};
   statuses.forEach(status => {
     if (!statusCounts[status]) {
@@ -23,11 +52,10 @@ d3.json("C:/Users/Elsie/Desktop/Data-Analyst/Challenges/Dr.John/DNF_output.json"
       statusCounts[status]++;
     }
   });
-
-  // Create data for the bar graph
+  // Create data for the bar graph----------------------------------------------------------------------------------------
   let trace1 = {
-    x: Object.keys(statusCounts),
-    y: Object.values(statusCounts),
+    x: Object.keys(sortedCounts),
+    y: Object.values(sortedCounts),
     type: "bar"
   };
 
@@ -37,15 +65,15 @@ d3.json("C:/Users/Elsie/Desktop/Data-Analyst/Challenges/Dr.John/DNF_output.json"
   // Apply a title to the layout
   let layout = {
     title: "Did Not Finish (DNF) By Location",
-    barmode: "group",
+    barmode: "group"
     // Include margins in the layout so the x-tick labels display correctly
-    margin: {
-      l: 50,
-      r: 50,
-      b: 200,
-      t: 50,
-      pad: 4
-    }
+    //margin: {
+      //l: 50,
+      //r: 50,
+      //b: 200,
+      //t: 50,
+      //pad: 4
+    
   };
 
   // Render the plot to the div tag with id "plot"
