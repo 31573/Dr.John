@@ -2,8 +2,74 @@ let seasons=["2014","2015","2016","2017","2018","2019"];
 
 function optionChanged(year){
     console.log(year)
+    // Sample data
+  const data = [
+    { driver: "Lewis Hamilton", team: "Mercedes", year: 2015, dnf: true },
+    { driver: "Max Verstappen", team: "Red Bull Racing", year: 2014, dnf: true },
+    { driver: "Lewis Hamilton", team: "Mercedes", year: 2014, dnf: true },
+    { driver: "Max Verstappen", team: "Red Bull Racing", year: 2015, dnf: true }
+    // Add more data from metadata ----------------------------------
+  ];
+
+  // Function to calculate DNFs per driver and per team for a given year
+  function calculateStats(year) {
+    let driverStats = {};
+    let teamStats = {};
+
+  // Filter data for the given year
+    let filteredData = data.filter(item => item.year === year);
+
+  // Calculate DNFs per driver and per team
+    filteredData.forEach(item => {
+      if (item.dnf) {
+          // DNFs per driver
+          if (!driverStats[item.driver]) {
+              driverStats[item.driver] = 1;
+          } else {
+              driverStats[item.driver]++;
+          }
+
+          // DNFs per team
+          if (!teamStats[item.team]) {
+              teamStats[item.team] = 1;
+          } else {
+              teamStats[item.team]++;
+          }
+      }
+  });
+
+  return { driverStats, teamStats };
+  }
+
+// Function to display stats on the webpage
+function displayStats(year) {
+  //let year = 2014; // Replace this with the desired year
+
+  let { driverStats, teamStats } = calculateStats(year);
+  console.log({ driverStats, teamStats } );
+
+  let driverStatsDiv = document.getElementById('driverStats');
+  let teamStatsDiv = document.getElementById('teamStats');
+
+  // Display driver stats
+  driverStatsDiv.innerHTML = `<h2>Driver Stats for ${year}</h2>`;
+  Object.keys(driverStats).forEach(driver => {
+      driverStatsDiv.innerHTML += `<p>${driver}: ${driverStats[driver]} DNF(s)</p>`;
+  });
+
+  // Display team stats
+  teamStatsDiv.innerHTML = `<h2>Team Stats for ${year}</h2>`;
+  Object.keys(teamStats).forEach(team => {
+      teamStatsDiv.innerHTML += `<p>${team}: ${teamStats[team]} DNF(s)</p>`;
+  });
+}
+
+// Call the displayStats function to display stats on page load
+displayStats(year);
 };
 // -------------------------------------------------------
+
+
 // -------------------------------------------------------
 d3.json("DNF_output.json").then(function(data) {
     // Initialized arrays
