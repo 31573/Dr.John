@@ -1,81 +1,58 @@
 
-d3.json("DNF_output.json").then(function(data) {
-  // Initialized arrays
-  let locations = [];
-  let statuses = [];
+// Make a request to fetch the JSON data from the URL
+d3.json("https://raw.githubusercontent.com/31573/Dr.John/main/meta_data_inclusive_output.json")
+  .then(function(data) {
+    // This function will be executed when the data is successfully fetched
+    console.log(data); // Output the fetched data to the console for verification
 
-  console.log(data[0]);
-  // For loop to populate arrays
-  for (let i = 0; i < data.length; i++) {
-    let row = data[i];
-    locations.push(row.location);
-    statuses.push(row.status);
-  }
-console.log(locations);
-  // Initialize an empty object to store counts-----------------------------------------------------------------
-  let counts = {};
+    // Extract unique locations and count DNF occurrences for each location
+    let locationCounts = {};
+    let locationAccidents = {};
+    let locationFailures = {};
 
-  // Iterate over the locations array
-  locations.forEach(function(location) {
-    // If the location is not already a key in the counts object, initialize it with a count of 1
-    if (!counts[location]) {
-        counts[location] = 1;
-    } else {
-        // If the location is already a key, increment its count
-        counts[location]++;
-    }
-});
+    data.forEach(entry => {
+      if (!locationCounts[entry.location]) {
+        locationCounts[entry.location] = 1;
+        locationAccidents[entry.location] = entry.accidents;
+        locationFailures[entry.location] = entry.failures;
+      } else {
+        locationCounts[entry.location]++;
+        locationAccidents[entry.location] += entry.accidents;
+        locationFailures[entry.location] += entry.failures;
+      }
+    });
 
+    // Create data for the bar graph
+    let trace1 = {
+      x: Object.keys(locationCounts),
+      y: Object.values(locationCounts),
+      type: "bar",
+      text: Object.keys(locationCounts).map(location => `Count of DNF: ${locationCounts[location]}, Accidents: ${locationAccidents[location]}, Failures: ${locationFailures[location]}`),
+      hoverinfo: "text"
+    };
 
-  // Convert counts object to array of key-value pairs
-  let countsArray = Object.entries(counts);
+    // Create data array
+    let data_points = [trace1];
 
-  // Sort the array based on counts (descending order)
-  countsArray.sort(function(a, b) {
-    return b[1] - a[1];
+    // Apply a title to the layout
+    let layout = {
+      title: "Did Not Finish (DNF) By Location",
+      xaxis: { title: "Location" },
+      yaxis: { title: "Count of DNF" },
+      // Include margins in the layout so the x-tick labels display correctly
+      margin: {
+        l: 50,
+        r: 50,
+        b: 200,
+        t: 50,
+        pad: 4
+      }
+    };
+
+    // Render the plot to the div tag with id "DNF_plot"
+    Plotly.newPlot("DNF_plot", data_points, layout);
+  })
+  .catch(function(error) {
+    // This function will be executed if there's an error fetching the data
+    console.error("Error fetching the JSON data:", error);
   });
-
-  // If you want to convert the sorted array back to an object
-  let sortedCounts = {};
-  countsArray.forEach(function(pair) {
-    sortedCounts[pair[0]] = pair[1];
-  });
-  // Output the sorted counts
-  console.log(sortedCounts);
-
-  // Count occurrences of each status -----------------------------------------------------------------------------------
-  let statusCounts = {};
-  statuses.forEach(status => {
-    if (!statusCounts[status]) {
-      statusCounts[status] = 1;
-    } else {
-      statusCounts[status]++;
-    }
-  });
-  // Create data for the bar graph----------------------------------------------------------------------------------------
-  let trace1 = {
-    x: Object.keys(sortedCounts),
-    y: Object.values(sortedCounts),
-    type: "bar"
-  };
-
-  // Create data array
-  let data_points = [trace1];
-
-  // Apply a title to the layout
-  let layout = {
-    title: "Did Not Finish (DNF) By Location",
-    barmode: "group"
-    // Include margins in the layout so the x-tick labels display correctly
-    //margin: {
-      //l: 50,
-      //r: 50,
-      //b: 200,
-      //t: 50,
-      //pad: 4
-    
-  };
-
-  // Render the plot to the div tag with id "plot"
-  Plotly.newPlot("DNF_plot", data_points, layout);
-});
