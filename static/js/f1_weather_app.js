@@ -1,5 +1,5 @@
 function charts(year) {
-  d3.json("data/race_location_weather.json").then(function(data) {
+  d3.json("data/race_loc_wea_ret.json").then(function(data) {
     console.log('Weather bar data:', data);
     console.log(data[0].main)
 
@@ -196,7 +196,7 @@ function optionChanged(change) {
 // Create a function that will initiatlize the whole page
 // and the run the functions above.
 function init() {
-  d3.json("data/race_location_weather.json").then(function(data) {
+  d3.json("data/race_loc_wea_ret.json").then(function(data) {
 
     console.log('Weather bar data:', data);
     

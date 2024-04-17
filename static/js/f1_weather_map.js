@@ -1,4 +1,4 @@
-d3.json("data/race_location_weather.json").then(function(data) {
+d3.json("data/race_loc_wea_ret.json").then(function(data) {
   console.log('Data:', data);
   console.log(data[0].main)
 
