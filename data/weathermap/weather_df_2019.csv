@@ -1,0 +1,22 @@
+season,date,temperature,humidity,clouds,wind_speed,weather in brief,weather expanded,weather,circuitName,lat,long,location,country
+2019,2019-03-17,77,58,0,6.2,Clear,Clear Sky,None dry   23.6°c,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+2019,2019-03-31,76,65,90,11.57,Clouds,Overcast Clouds,clear  dry   26°c,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain
+2019,2019-04-14,71,37,0,7.0,Rain,Heavy Intensity Rain,None dry   19.3°c,Shanghai International Circuit,31.3389,121.22,Shanghai,China
+2019,2019-04-28,60,46,0,8.8,Clear,Clear Sky,None dry   20.0°c,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan
+2019,2019-05-12,66,58,20,5.7,Clouds,Few Clouds,None dry   19.75°c,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain
+2019,2019-05-26,66,73,75,3.1,Rain,Light Rain,overcast dry   23.15°c,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+2019,2019-06-09,84,17,0,5.14,Clear,Clear Sky,temperatures reaching up to 29.6°c  (85.3°f)  wind speeds negligible dry   29.7°c,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+2019,2019-06-23,79,51,45,2.97,Clouds,Scattered Clouds,clear  dry   26.25°c,Circuit Paul Ricard,43.2506,5.79167,Le Castellet,France
+2019,2019-06-30,90,21,20,4.6,Clouds,Few Clouds,"sunny , 36c  (97f) dry   34°c",Red Bull Ring,47.2197,14.7647,Spielburg,Austria
+2019,2019-07-14,67,69,100,2.48,Clouds,Overcast Clouds,partly cloudy  dry   18.3°c,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+2019,2019-07-28,71,72,75,3.6,Thunderstorm,Thunderstorm,"early rain, late clouds wet   21.2°c",Hockenheimring,49.3278,8.56583,Hockenheim,Germany
+2019,2019-08-04,77,44,0,3.6,Clear,Clear Sky,sunny  dry   26.8°c,Hungaroring,47.5789,19.2486,Budapest,Hungary
+2019,2019-09-01,63,69,40,3.0,Clouds,Scattered Clouds,partly cloudy  dry   17.25°c,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+2019,2019-09-08,67,61,29,0.89,Clouds,Scattered Clouds,partly cloudy  dry   22.3°c,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+2019,2019-09-22,86,71,75,6.2,Haze,Haze,slightly hazy dry   30.3°c,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore
+2019,2019-09-29,72,64,40,4.02,Clouds,Scattered Clouds,partly cloudy  dry   22.35°c,Sochi Autodrom,43.4057,39.9578,Sochi,Russia
+2019,2019-10-13,74,52,0,8.2,Clear,Clear Sky,sunny  dry   21.75°c,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+2019,2019-10-27,73,46,75,3.1,Rain,Light Rain,partly cloudy  dry   22.3°c,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico
+2019,2019-11-03,72,24,20,4.6,Clouds,Few Clouds,sunny  dry   21.3°c,Circuit of the Americas,30.1328,-97.6411,Austin,USA
+2019,2019-11-17,68,64,40,7.2,Clouds,Scattered Clouds,sunny  dry  20.4°c,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+2019,2019-12-01,81,47,0,4.6,Clear,Clear Sky,clear  dry  25.85°c,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
