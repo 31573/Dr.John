@@ -119,9 +119,36 @@ function optionChanged(year){
             // If the location is already a key, increment its count
             counts[driver]++;
         }
-    });
-    console.log(counts);
-    };
+      });
+        // Create data for the bar graph----------------------------------------------------------------------------------------
+        let trace2 = {
+          x: Object.keys(counts),
+          y: Object.values(counts),
+          type: "bar"
+        };
+  
+        // Create data array
+        let data_points = [trace2];
+  
+        // Apply a title to the layout
+        let layout = {
+          title: "Did Not Finish (DNF) By Driver for "+year,
+          ylabel:"DNF Count",
+          barmode: "group",
+        // Include margins in the layout so the x-tick labels display correctly
+          margin: {
+          l: 50,
+          r: 50,
+          b: 200,
+          t: 50,
+          pad: 4
+      
+        }};
+  
+    // Render the plot to the div tag with id "plot"
+    Plotly.newPlot("driver_plot", data_points, layout);
+  };
+   
     // ---------------------------------------------------------------
     function teamStats(yearly_data) {
       let teams = [];
@@ -142,8 +169,40 @@ function optionChanged(year){
             counts[team]++;
         }
     });
-    console.log(counts);
+    // Create data for the bar graph----------------------------------------------------------------------------------------
+    let trace3 = {
+      x: Object.keys(counts),
+      y: Object.values(counts),
+      type: "bar"
     };
+
+    // Create data array
+    let data_points = [trace3];
+
+    // Apply a title to the layout
+    let layout = {
+      title: "Did Not Finish (DNF) By Team for "+year,
+      ylabel:"DNF Count",
+      barmode: "group",
+    // Include margins in the layout so the x-tick labels display correctly
+      margin: {
+      l: 50,
+      r: 50,
+      b: 200,
+      t: 50,
+      pad: 4
+  
+    }};
+
+// Render the plot to the div tag with id "plot"
+Plotly.newPlot("team_plot", data_points, layout);
+    };
+    //--------------------------------------------------------------------------------------
+    // DRIVER AND TEAM DNF PLOTS
+    //--------------------------------------------------------------------------------------
+    //DRIVER
+    
+
     // ------------------------------------------------------------------
     //DROPDOWN YEAR FUNCTION
     // ------------------------------------------------------------------
