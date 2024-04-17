@@ -1,34 +1,40 @@
 
 // Make a request to fetch the JSON data from the URL
-d3.json("https://raw.githubusercontent.com/31573/Dr.John/main/meta_data_inclusive_output.json")
+d3.json("https://raw.githubusercontent.com/31573/Dr.John/main/DNF_data.json")
   .then(function(data) {
-     // This function will be executed when the data is successfully fetched
+   
+    // This function will be executed when the data is successfully fetched
     console.log(data); // Output the fetched data to the console for verification
 
-    // Extract unique locations and count DNF occurrences for each location
-    let locationCounts = {};
-    let locationAccidents = {};
-    let locationFailures = {};
+    // Filter the data for the specified conditions: status = "DNF" and season = 2014
+    let filteredData = data.filter(entry => entry.status === "DNF" && entry.season_x === 2014);
 
-    data.forEach(entry => {
-      if (!locationCounts[entry.location]) {
-        locationCounts[entry.location] = 1;
-        locationAccidents[entry.location] = entry.accidents;
-        locationFailures[entry.location] = entry.failures;
+    // Count the occurrences of DNF for each location
+    let dnfCounts = {};
+    filteredData.forEach(entry => {
+      if (!dnfCounts[entry.location]) {
+        dnfCounts[entry.location] = 1;
       } else {
-        locationCounts[entry.location]++;
-        locationAccidents[entry.location] += entry.accidents;
-        locationFailures[entry.location] += entry.failures;
+        dnfCounts[entry.location]++;
       }
     });
 
-    // Create data for the bar graph
+    // Prepare data for the bar graph
     let trace1 = {
-      x: Object.keys(locationCounts),
-      y: Object.values(locationCounts),
+      x: Object.keys(dnfCounts),
+      y: Object.values(dnfCounts),
       type: "bar",
-      text: Object.keys(locationCounts).map(location => `Count of DNF: ${locationCounts[location]}, Accidents: ${locationAccidents[location]}, Failures: ${locationFailures[location]}`),
-      hoverinfo: "text"
+      text: Object.values(dnfCounts),
+      textposition: "auto",
+      hoverinfo: "text",
+      marker: {
+        color: 'rgb(158,202,225)',
+        opacity: 0.6,
+        line: {
+          color: 'rgb(8,48,107)',
+          width: 1.5
+        }
+      }
     };
 
     // Create data array
@@ -36,7 +42,7 @@ d3.json("https://raw.githubusercontent.com/31573/Dr.John/main/meta_data_inclusiv
 
     // Apply a title to the layout
     let layout = {
-      title: "Did Not Finish (DNF) By Location",
+      title: "Count of DNF (Did Not Finish) by Location in 2014",
       xaxis: { title: "Location" },
       yaxis: { title: "Count of DNF" },
       // Include margins in the layout so the x-tick labels display correctly
