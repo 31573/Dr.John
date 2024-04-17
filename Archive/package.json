@@ -11,5 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Connecting a Postgresql Database to JavaScript",
+  "devDependencies": {}
 }

@@ -1,0 +1,122 @@
+id,temp,feels_like,humidity,clouds,wind_speed,main,description,icon,date,lat,long,locality,country,season,round
+1,65,63,38,100,10.3,Rain,Light Rain,10d,2014-03-16,-37.8497,144.968,Melbourne,Australia,2014,1
+2,89,98,62,75,4.63,Clouds,Broken Clouds,04d,2014-03-30,2.76083,101.738,Kuala Lumpur,Malaysia,2014,2
+3,72,72,64,0,5.87,Clear,Clear Sky,01n,2014-04-06,26.0325,50.5106,Sakhir,Bahrain,2014,3
+4,64,63,67,75,3,Clouds,Broken Clouds,04d,2014-04-20,31.3389,121.22,Shanghai,China,2014,4
+5,74,74,53,40,7.2,Clouds,Scattered Clouds,03d,2014-05-11,41.57,2.26111,Montmelo,Spain,2014,5
+6,62,61,62,75,2.1,Clouds,Broken Clouds,04d,2014-05-25,43.7347,7.42056,Monte-Carlo,Monaco,2014,6
+7,81,80,36,0,5.14,Clear,Clear Sky,01d,2014-06-08,45.5,-73.5228,Montreal,Canada,2014,7
+8,77,76,35,20,2,Clouds,Few Clouds,02d,2014-06-22,47.2197,14.7647,Spielberg,Austria,2014,8
+9,65,63,54,99,3.77,Clouds,Overcast Clouds,04d,2014-07-06,52.0786,-1.01694,Silverstone,UK,2014,9
+10,79,79,57,0,4.12,Clear,Clear Sky,01d,2014-07-20,49.3278,8.56583,Hockenheim,Germany,2014,10
+11,72,73,76,75,2,Thunderstorm,Thunderstorm,11d,2014-07-27,47.5789,19.2486,Budapest,Hungary,2014,11
+12,58,56,71,40,4,Clouds,Scattered Clouds,03d,2014-08-24,50.4372,5.97139,Spa,Belgium,2014,12
+13,77,77,61,0,2.1,Clear,Clear Sky,01d,2014-09-07,45.6156,9.28111,Monza,Italy,2014,13
+14,86,92,62,75,3.6,Haze,Haze,50n,2014-09-21,1.2914,103.864,Marina Bay,Singapore,2014,14
+15,70,71,96,100,2.1,Rain,Light Intensity Shower Rain,09d,2014-10-05,34.8431,136.541,Suzuka,Japan,2014,15
+16,71,70,58,20,3,Clouds,Few Clouds,02d,2014-10-12,43.4057,39.9578,Sochi,Russia,2014,16
+17,73,72,41,75,6.7,Clouds,Broken Clouds,04d,2014-11-02,30.1328,-97.6411,Austin,USA,2014,17
+18,76,76,53,75,5.7,Rain,Light Rain,10d,2014-11-09,-23.7036,-46.6997,Sao Paulo,Brazil,2014,18
+19,81,82,51,0,3.1,Clear,Clear Sky,01d,2014-11-23,24.4672,54.6031,Abu Dhabi,UAE,2014,19
+20,64,63,56,0,8.2,Clear,Clear Sky,01d,2015-03-15,-37.8497,144.968,Melbourne,Australia,2015,1
+21,87,91,55,75,1.5,Clouds,Broken Clouds,04d,2015-03-29,2.76083,101.738,Kuala Lumpur,Malaysia,2015,2
+22,68,67,46,6,2.98,Clear,Clear Sky,01d,2015-04-12,31.3389,121.22,Shanghai,China,2015,3
+23,76,76,63,0,7.24,Clear,Clear Sky,01d,2015-04-19,26.0325,50.5106,Sakhir,Bahrain,2015,4
+24,77,77,39,0,4.1,Clear,Clear Sky,01d,2015-05-10,41.57,2.26111,Montmelo,Spain,2015,5
+25,64,63,68,40,3.6,Clouds,Scattered Clouds,03d,2015-05-24,43.7347,7.42056,Monte-Carlo,Monaco,2015,6
+26,69,67,30,100,5.7,Clouds,Overcast Clouds,04d,2015-06-07,45.5,-73.5228,Montreal,Canada,2015,7
+27,58,56,46,40,2,Clouds,Scattered Clouds,03d,2015-06-21,47.2197,14.7647,Spielberg,Austria,2015,8
+28,67,66,57,71,3.99,Clouds,Broken Clouds,04d,2015-07-05,52.0786,-1.01694,Silverstone,UK,2015,9
+29,76,75,35,0,6.7,Clear,Clear Sky,01d,2015-07-26,47.5789,19.2486,Budapest,Hungary,2015,10
+30,76,75,41,0,8,Clear,Clear Sky,01d,2015-08-23,50.4372,5.97139,Spa,Belgium,2015,11
+31,71,70,38,19,1,Clouds,Few Clouds,02d,2015-09-06,45.6156,9.28111,Monza,Italy,2015,12
+32,88,99,70,75,3.1,Clouds,Broken Clouds,04n,2015-09-20,1.2914,103.864,Marina Bay,Singapore,2015,13
+33,81,82,51,2,4.1,Clear,Clear Sky,01d,2015-09-27,34.8431,136.541,Suzuka,Japan,2015,14
+34,63,61,42,0,3,Clear,Clear Sky,01d,2015-10-11,43.4057,39.9578,Sochi,Russia,2015,15
+35,65,65,83,100,7.2,Rain,Light Rain,10d,2015-10-25,30.1328,-97.6411,Austin,USA,2015,16
+36,71,70,38,40,1.5,Clouds,Scattered Clouds,03d,2015-11-01,19.4042,-99.0907,Mexico City,Mexico,2015,17
+37,79,78,48,75,2.1,Clouds,Broken Clouds,04d,2015-11-15,-23.7036,-46.6997,Sao Paulo,Brazil,2015,18
+38,82,82,51,20,6.2,Clouds,Few Clouds,02d,2015-11-29,24.4672,54.6031,Abu Dhabi,UAE,2015,19
+39,72,71,40,0,6.2,Clear,Clear Sky,01d,2016-03-20,-37.8497,144.968,Melbourne,Australia,2016,1
+40,70,70,61,7,3.71,Clear,Clear Sky,01n,2016-04-03,26.0325,50.5106,Sakhir,Bahrain,2016,2
+41,71,69,35,0,3,Clear,Clear Sky,01d,2016-04-17,31.3389,121.22,Shanghai,China,2016,3
+42,63,62,59,40,3.6,Clouds,Scattered Clouds,03d,2016-05-01,43.4057,39.9578,Sochi,Russia,2016,4
+43,74,74,53,40,5.7,Clouds,Scattered Clouds,03d,2016-05-15,41.57,2.26111,Montmelo,Spain,2016,5
+44,64,64,88,75,4.63,Rain,Light Rain,10d,2016-05-29,43.7347,7.42056,Monte-Carlo,Monaco,2016,6
+45,54,52,55,100,7.2,Clouds,Overcast Clouds,04d,2016-06-12,45.5,-73.5228,Montreal,Canada,2016,7
+46,81,80,38,0,5.7,Clear,Clear Sky,01d,2016-06-19,40.3725,49.8533,Baku,Azerbaijan,2016,8
+47,60,59,69,75,1.03,Clouds,Broken Clouds,04d,2016-07-03,47.2197,14.7647,Spielberg,Austria,2016,9
+48,68,68,79,32,6.78,Clouds,Scattered Clouds,03d,2016-07-10,52.0786,-1.01694,Silverstone,UK,2016,10
+49,83,83,45,0,3.6,Clear,Clear Sky,01d,2016-07-24,47.5789,19.2486,Budapest,Hungary,2016,11
+50,76,76,45,0,3.1,Clear,Clear Sky,01d,2016-07-31,49.3278,8.56583,Hockenheim,Germany,2016,12
+51,77,77,66,20,5,Clouds,Few Clouds,02d,2016-08-28,50.4372,5.97139,Spa,Belgium,2016,13
+52,88,90,45,0,2.06,Clear,Clear Sky,01d,2016-09-04,45.6156,9.28111,Monza,Italy,2016,14
+53,88,98,66,75,2.1,Rain,Light Rain,10n,2016-09-18,1.2914,103.864,Marina Bay,Singapore,2016,15
+54,93,101,52,75,5.14,Clouds,Broken Clouds,04d,2016-10-02,2.76083,101.738,Kuala Lumpur,Malaysia,2016,16
+55,72,72,58,95,6.7,Clouds,Overcast Clouds,04d,2016-10-09,34.8431,136.541,Suzuka,Japan,2016,17
+56,80,80,40,75,5.7,Clouds,Broken Clouds,04d,2016-10-23,30.1328,-97.6411,Austin,USA,2016,18
+57,68,66,42,75,2.6,Clouds,Broken Clouds,04d,2016-10-30,19.4042,-99.0907,Mexico City,Mexico,2016,19
+58,66,66,88,100,4.12,Rain,Light Rain,10d,2016-11-13,-23.7036,-46.6997,Sao Paulo,Brazil,2016,20
+59,81,82,51,0,5.14,Clear,Clear Sky,01d,2016-11-27,24.4672,54.6031,Abu Dhabi,UAE,2016,21
+60,77,77,62,0,5.7,Clear,Clear Sky,01d,2017-03-26,-37.8497,144.968,Melbourne,Australia,2017,1
+61,55,55,93,100,6,Mist,Mist,50d,2017-04-09,31.3389,121.22,Shanghai,China,2017,2
+62,76,77,75,0,10.62,Clear,Clear Sky,01d,2017-04-16,26.0325,50.5106,Sakhir,Bahrain,2017,3
+63,68,66,41,20,4,Clouds,Few Clouds,02d,2017-04-30,43.4057,39.9578,Sochi,Russia,2017,4
+64,76,75,44,20,5.7,Clouds,Few Clouds,02d,2017-05-14,41.57,2.26111,Montmelo,Spain,2017,5
+65,72,72,69,20,3.1,Clouds,Few Clouds,02d,2017-05-28,43.7347,7.42056,Monte-Carlo,Monaco,2017,6
+66,83,83,49,100,9.8,Clouds,Overcast Clouds,04d,2017-06-11,45.5,-73.5228,Montreal,Canada,2017,7
+67,79,79,54,20,5.7,Clouds,Few Clouds,02d,2017-06-25,40.3725,49.8533,Baku,Azerbaijan,2017,8
+68,81,81,40,40,5.14,Clouds,Scattered Clouds,03d,2017-07-09,47.2197,14.7647,Spielberg,Austria,2017,9
+69,70,70,80,92,5.11,Clouds,Overcast Clouds,04d,2017-07-16,52.0786,-1.01694,Silverstone,UK,2017,10
+70,85,84,37,0,3.1,Clear,Clear Sky,01d,2017-07-30,47.5789,19.2486,Budapest,Hungary,2017,11
+71,72,72,64,40,2.06,Clouds,Scattered Clouds,03d,2017-08-27,50.4372,5.97139,Spa,Belgium,2017,12
+72,73,71,34,0,1.03,Clear,Clear Sky,01d,2017-09-03,45.6156,9.28111,Monza,Italy,2017,13
+73,82,91,85,40,4.12,Thunderstorm,Thunderstorm With Rain,11n,2017-09-17,1.2914,103.864,Marina Bay,Singapore,2017,14
+74,87,96,66,75,3.1,Clouds,Broken Clouds,04d,2017-10-01,2.76083,101.738,Kuala Lumpur,Malaysia,2017,15
+75,79,79,60,43,1.5,Clouds,Scattered Clouds,03d,2017-10-08,34.8431,136.541,Suzuka,Japan,2017,16
+76,74,74,57,20,5.7,Clouds,Few Clouds,02d,2017-10-22,30.1328,-97.6411,Austin,USA,2017,17
+77,70,68,35,75,2.1,Clouds,Broken Clouds,04d,2017-10-29,19.4042,-99.0907,Mexico City,Mexico,2017,18
+78,81,79,28,0,2.6,Clear,Clear Sky,01d,2017-11-12,-23.7036,-46.6997,Sao Paulo,Brazil,2017,19
+79,77,77,50,40,5.7,Clouds,Scattered Clouds,03d,2017-11-26,24.4672,54.6031,Abu Dhabi,UAE,2017,20
+80,77,76,34,75,10.29,Clouds,Broken Clouds,04d,2018-03-25,-37.8497,144.968,Melbourne,Australia,2018,1
+81,76,77,82,18,5.99,Clouds,Few Clouds,02n,2018-04-08,26.0325,50.5106,Sakhir,Bahrain,2018,2
+82,67,65,28,0,3,Clear,Clear Sky,01d,2018-04-15,31.3389,121.22,Shanghai,China,2018,3
+83,55,53,63,0,13.9,Clear,Clear Sky,01d,2018-04-29,40.3725,49.8533,Baku,Azerbaijan,2018,4
+84,60,59,55,40,4.12,Clouds,Scattered Clouds,03d,2018-05-13,41.57,2.26111,Montmelo,Spain,2018,5
+85,71,71,73,0,5.14,Clear,Clear Sky,01d,2018-05-27,43.7347,7.42056,Monte-Carlo,Monaco,2018,6
+86,67,65,35,75,2.6,Clouds,Broken Clouds,04d,2018-06-10,45.5,-73.5228,Montreal,Canada,2018,7
+87,75,75,70,93,1.14,Rain,Light Rain,10d,2018-06-24,43.2506,5.79167,Le Castellet,France,2018,8
+88,70,69,49,20,4.12,Clouds,Few Clouds,02d,2018-07-01,47.2197,14.7647,Spielberg,Austria,2018,9
+89,83,82,41,6,3.37,Clear,Clear Sky,01d,2018-07-08,52.0786,-1.01694,Silverstone,UK,2018,10
+90,77,77,47,40,3.1,Clouds,Scattered Clouds,03d,2018-07-22,49.3278,8.56583,Hockenheim,Germany,2018,11
+91,89,90,43,0,2.6,Clear,Clear Sky,01d,2018-07-29,47.5789,19.2486,Budapest,Hungary,2018,12
+92,62,60,41,100,4,Clouds,Overcast Clouds,04d,2018-08-26,50.4372,5.97139,Spa,Belgium,2018,13
+93,69,69,86,40,4.12,Clouds,Scattered Clouds,03d,2018-09-02,45.6156,9.28111,Monza,Italy,2018,14
+94,84,89,65,75,3.1,Clouds,Broken Clouds,04n,2018-09-16,1.2914,103.864,Marina Bay,Singapore,2018,15
+95,72,72,61,100,2,Clouds,Overcast Clouds,04d,2018-09-30,43.4057,39.9578,Sochi,Russia,2018,16
+96,81,82,53,24,5.1,Clouds,Few Clouds,02d,2018-10-07,34.8431,136.541,Suzuka,Japan,2018,17
+97,70,68,38,38,3.1,Clouds,Scattered Clouds,03d,2018-10-21,30.1328,-97.6411,Austin,USA,2018,18
+98,66,65,52,75,1.54,Clouds,Broken Clouds,04d,2018-10-28,19.4042,-99.0907,Mexico City,Mexico,2018,19
+99,78,79,69,75,6.7,Rain,Light Rain,10d,2018-11-11,-23.7036,-46.6997,Sao Paulo,Brazil,2018,20
+100,92,92,36,40,5.14,Clouds,Scattered Clouds,03d,2018-11-25,24.4672,54.6031,Abu Dhabi,UAE,2018,21
+101,77,77,58,0,6.2,Clear,Clear Sky,01d,2019-03-17,-37.8497,144.968,Melbourne,Australia,2019,1
+102,76,77,65,90,11.57,Clouds,Overcast Clouds,04n,2019-03-31,26.0325,50.5106,Sakhir,Bahrain,2019,2
+103,71,69,37,0,7,Rain,Heavy Intensity Rain,10d,2019-04-14,31.3389,121.22,Shanghai,China,2019,3
+104,60,58,46,0,8.8,Clear,Clear Sky,01d,2019-04-28,40.3725,49.8533,Baku,Azerbaijan,2019,4
+105,66,65,58,20,5.7,Clouds,Few Clouds,02d,2019-05-12,41.57,2.26111,Montmelo,Spain,2019,5
+106,66,66,73,75,3.1,Rain,Light Rain,10d,2019-05-26,43.7347,7.42056,Monte-Carlo,Monaco,2019,6
+107,84,81,17,0,5.14,Clear,Clear Sky,01d,2019-06-09,45.5,-73.5228,Montreal,Canada,2019,7
+108,79,79,51,45,2.97,Clouds,Scattered Clouds,03d,2019-06-23,43.2506,5.79167,Le Castellet,France,2019,8
+109,90,86,21,20,4.6,Clouds,Few Clouds,02d,2019-06-30,47.2197,14.7647,Spielberg,Austria,2019,9
+110,67,67,69,100,2.48,Clouds,Overcast Clouds,04d,2019-07-14,52.0786,-1.01694,Silverstone,UK,2019,10
+111,71,71,72,75,3.6,Thunderstorm,Thunderstorm,11d,2019-07-28,49.3278,8.56583,Hockenheim,Germany,2019,11
+112,77,76,44,0,3.6,Clear,Clear Sky,01d,2019-08-04,47.5789,19.2486,Budapest,Hungary,2019,12
+113,63,62,69,40,3,Clouds,Scattered Clouds,03d,2019-09-01,50.4372,5.97139,Spa,Belgium,2019,13
+114,67,67,61,29,0.89,Clouds,Scattered Clouds,03d,2019-09-08,45.6156,9.28111,Monza,Italy,2019,14
+115,86,95,71,75,6.2,Haze,Haze,50n,2019-09-22,1.2914,103.864,Marina Bay,Singapore,2019,15
+116,72,72,64,40,4.02,Clouds,Scattered Clouds,03d,2019-09-29,43.4057,39.9578,Sochi,Russia,2019,16
+117,74,74,52,0,8.2,Clear,Clear Sky,01d,2019-10-13,34.8431,136.541,Suzuka,Japan,2019,17
+118,73,72,46,75,3.1,Rain,Light Rain,10d,2019-10-27,19.4042,-99.0907,Mexico City,Mexico,2019,18
+119,72,70,24,20,4.6,Clouds,Few Clouds,02d,2019-11-03,30.1328,-97.6411,Austin,USA,2019,19
+120,68,68,64,40,7.2,Clouds,Scattered Clouds,03d,2019-11-17,-23.7036,-46.6997,Sao Paulo,Brazil,2019,20
+121,81,81,47,0,4.6,Clear,Clear Sky,01d,2019-12-01,24.4672,54.6031,Abu Dhabi,UAE,2019,21

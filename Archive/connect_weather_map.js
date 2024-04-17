@@ -2,7 +2,7 @@
 
 const { Client } = require('pg');
 
-const connectionString = 'postgres://postgres:postgres@localhost:5432/project_three_db';
+const connectionString = 'postgres://postgres:postgres@localhost:5432/f1_halo';
 const pgClient = new Client({
   connectionString: connectionString
 });
@@ -16,12 +16,12 @@ pgClient.query('SELECT * from location_weather', (err, res) => {
     return;
   }
 
-  const data = res.rows;
-  console.log(data); // Verify the data
+  const data_weather_map = res.rows;
+  console.log(data_weather_map); // Verify the data
 
   // Store the data in a JavaScript file
   const fs = require('fs');
-  fs.writeFileSync('data.js', `const data = ${JSON.stringify(data)};`);
+  fs.writeFileSync('data_weather_map.js', `const data = ${JSON.stringify(data_weather_map)};`);
 
   pgClient.end();
 });

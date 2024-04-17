@@ -1,6 +1,8 @@
+d3.json("data/race_location_weather.json").then(function(data) {
+  console.log('Data:', data);
+  console.log(data[0].main)
 
-console.log(data)
-variables(data)
+  variables(data)
 
 // Create a function that collects/passes along the main JSON data and creates the variables.
 function variables(tracks) {
@@ -184,3 +186,5 @@ L.control.layers(baseMaps, overlayMaps, {
 
 // // Run the map legend function.
 // mapLegend(myMap);
+
+});
