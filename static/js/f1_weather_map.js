@@ -5,8 +5,8 @@ d3.json("data/race_loc_wea_ret.json").then(function(data) {
   variables(data)
 
 // Create a function that collects/passes along the main JSON data and creates the variables.
-function variables(tracks) {
-  
+function variables(all_tracks) {
+
   // Initialie the variables.
   let years = [2014, 2015, 2016, 2017, 2018, 2019]
 
@@ -30,7 +30,9 @@ function variables(tracks) {
 
   // Loop through the data to create the variables.
   function variable_years(year) {
-    if (tracks[0].season == year) {
+    const tracks = all_tracks.filter(track => track.season == year)
+    console.log(tracks);
+    // if (tracks[0].season == year) {
       for (let i = 0; i < tracks.length; i++) {
         lat = tracks[i].lat
         lon = tracks[i].long
@@ -72,9 +74,9 @@ function variables(tracks) {
           season_2019.push(circle)
         )
       }
-    }
+    // }
   }
-  
+
 variable_years(2014)
 variable_years(2015)
 variable_years(2016)
@@ -82,8 +84,8 @@ variable_years(2017)
 variable_years(2018)
 variable_years(2019)
 
-console.log(season_2014)
-console.log(season_2015)
+// console.log(season_2014)
+// console.log(season_2015)
 
 let season_2014_markers = L.layerGroup(season_2014)
 let season_2015_markers = L.layerGroup(season_2015)
@@ -92,41 +94,64 @@ let season_2017_markers = L.layerGroup(season_2017)
 let season_2018_markers = L.layerGroup(season_2018)
 let season_2019_markers = L.layerGroup(season_2019)
 
-let overlayMaps = {
-  '2014 season': season_2014_markers,
-  '2015 season': season_2015_markers,
-  '2016 season': season_2016_markers,
-  '2017 season': season_2017_markers,
-  '2018 season': season_2018_markers,
-  '2019 season': season_2019_markers
-};
+// let baseMaps = {
+//   '2014 season': season_2014_markers,
+//   '2015 season': season_2015_markers,
+//   '2016 season': season_2016_markers,
+//   '2017 season': season_2017_markers,
+//   '2018 season': season_2018_markers,
+//   '2019 season': season_2019_markers
+// };
 
-// Add a tile layer (the background map image) to the map.
-let world = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+// Define map tiles for each year
+var baseMaps = {
+  "2014": L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-});
-
-let baseMaps = {
-  "World Map": world
+}),
+  "2015": L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}),
+  "2016": L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}),
+  "2017": L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}),
+  "2018": L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}),
+  "2019": L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+})
 };
+
+// Create radio buttons to switch between base maps
+var radioButtons = document.getElementsByName('year');
+radioButtons.forEach(function(radio) {
+  radio.addEventListener('change', function() {
+    var selectedYear = this.value;
+    map.removeLayer(baseMaps[Object.keys(baseMaps).find(key => key !== selectedYear)]);
+    map.addLayer(baseMaps[selectedYear]);
+  });
+});
 
 // Create the map variable.
 let myMap = L.map("map", {
   center: [43.7347, 7.42056],
   zoom: 7,
-  layers: [world, season_2014_markers, season_2015_markers, season_2016_markers, season_2017_markers, season_2018_markers, season_2019_markers]
+  layers: [baseMaps["2014"]] // Initial base map
 });
 
 
-L.control.layers(baseMaps, overlayMaps, {
-  collapsed: false
+L.control.layers(baseMaps, {
+  collapsed: false,
 }).addTo(myMap);
 
 }
 //   // Create the function to associate the color with the depth.
 //   function colorDepth(d) {
 //     let colors = ['#ffffb2','#fed976','#feb24c','#fd8d3c','#fc4e2a','#e31a1c','#b10026']
-  
+
 //     if (d <= 10) {
 //       return colors[0]
 //     }
