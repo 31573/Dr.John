@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Did Not Finish (DNF) By Locations</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <div id="driverStats"></div>
+    <div id="teamStats"></div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 p-5 text-center bg-light">
+            <h1>F1 Halo Dashboard</h1>
+            <p>Use the charts below to explore the dataset</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="card card-body bg-light">
+              <h6>Year:</h6>
+              <select id="selDataset" onchange="optionChanged(this.value)">
+              </select>
+              <script src="logic.js"></script>
+            </div>
+            <script>
+                // Fetch JSON data
+                d3.json("data.json")
+                  .then(function(data) {
+                    console.log(data);
+                    // Extract season from the data
+                    let year = data.seasons;
+            
+                    // Select the dropdown menu
+                    let dropdownMenu = d3.select("#selDataset");
+            
+                    // Add options to the dropdown menu
+                    dropdownMenu.selectAll("option")
+                      .data(year)
+                      .enter()
+                      .append("option")
+                      .text(function(d) { return d; })
+                      .attr("value", function(d) { return d; });
+                  })
+              </script>
+    <div id="DNF_plot"></div>
+
+    
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="DNF_plot.js"></script>
+    <!-- <script src="refactored.js"></script> -->
+</body>
+</html>
