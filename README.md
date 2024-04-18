@@ -56,4 +56,6 @@ Code Sources:
 The majority of the code is our own. Some code help came from AI chatbots such as ChatGPT and Xpert Learning Assistant. Other code snippets and suggestions came from Stack Overflow. Some code came directly from documentation of the languages and libraries we used (primarily JavaScript, Leaflet, Python, Pandas, HTML, and SQL or Postgresql). Class assignments or challenges also provided direction and example code. In general, we used outside sources to test ideas, confirm assumptions, and learn new methods, which allowed us to better write our own code and cross the finish line.
 
 
+[View Accidents Graph](accidents_index.html)
+
 
