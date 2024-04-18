@@ -1,7 +1,7 @@
 let seasons=["2014","2015","2016","2017","2018","2019"];
-
+  
 function optionChanged(year){
-  d3.json("meta_data_inclusive_output.json").then(function(data){
+  d3.json("https://raw.githubusercontent.com/31573/Dr.John/main/meta_data_inclusive_output.json").then(function(data){
     // ------------------------------------------------------------------
     // YEARLY DATA
     // ------------------------------------------------------------------
@@ -57,9 +57,10 @@ function optionChanged(year){
       for(let i =0;i<yearly_data.length;i++){
         locations.push(yearly_data[i].location)
       };
+      
       // Initialize an empty object to store counts-----------------------------------------------------------------
       let counts = {};
-      
+
       // Iterate over the locations array
       locations.forEach(function(location) {
         // If the location is not already a key in the counts object, initialize it with a count of 1
@@ -70,6 +71,7 @@ function optionChanged(year){
             counts[location]++;
         }
     });
+      
       // Create data for the bar graph----------------------------------------------------------------------------------------
       let trace1 = {
         x: Object.keys(counts),
@@ -124,7 +126,11 @@ function optionChanged(year){
         let trace2 = {
           x: Object.keys(counts),
           y: Object.values(counts),
-          type: "bar"
+          type: "bar",
+          marker: {
+            color: 'rgb(251,204,104)',
+            opacity: 0.5
+          }
         };
   
         // Create data array
@@ -135,6 +141,7 @@ function optionChanged(year){
           title: "Did Not Finish (DNF) By Driver for "+year,
           ylabel:"DNF Count",
           barmode: "group",
+
         // Include margins in the layout so the x-tick labels display correctly
           margin: {
           l: 50,
@@ -173,7 +180,10 @@ function optionChanged(year){
     let trace3 = {
       x: Object.keys(counts),
       y: Object.values(counts),
-      type: "bar"
+      type: "bar",
+      marker: {
+        color: 'rgb(158,202,225)' // Specify the color here
+      }
     };
 
     // Create data array
@@ -197,12 +207,8 @@ function optionChanged(year){
 // Render the plot to the div tag with id "plot"
 Plotly.newPlot("team_plot", data_points, layout);
     };
-    //--------------------------------------------------------------------------------------
-    // DRIVER AND TEAM DNF PLOTS
-    //--------------------------------------------------------------------------------------
-    //DRIVER
-    
-
+   
+  
     // ------------------------------------------------------------------
     //DROPDOWN YEAR FUNCTION
     // ------------------------------------------------------------------
@@ -226,3 +232,4 @@ Plotly.newPlot("team_plot", data_points, layout);
     //call function for selecting year
     selYear(year)
 })};
+
