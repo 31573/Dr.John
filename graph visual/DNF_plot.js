@@ -1,5 +1,5 @@
 // Make a request to fetch the JSON data from the URL
-d3.text("https://raw.githubusercontent.com/31573/Dr.John/main/DNF_data.json")
+d3.text("https://raw.githubusercontent.com/31573/Dr.John/main/graph visual/DNF_data.json")
   .then(function(data) {
     // Split the text data by newline characters to get individual JSON entries
     let lines = data.trim().split('\n');
