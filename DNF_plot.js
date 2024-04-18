@@ -1,13 +1,17 @@
-
 // Make a request to fetch the JSON data from the URL
-d3.json("https://raw.githubusercontent.com/31573/Dr.John/main/DNF_data.json")
+d3.text("https://raw.githubusercontent.com/31573/Dr.John/main/DNF_data.json")
   .then(function(data) {
+    // Split the text data by newline characters to get individual JSON entries
+    let lines = data.trim().split('\n');
+
+    // Parse each JSON entry
+    let jsonData = lines.map(line => JSON.parse(line.trim())); // Trim any extra whitespace
    
     // This function will be executed when the data is successfully fetched
-    console.log(data); // Output the fetched data to the console for verification
+    console.log(jsonData); // Output the fetched data to the console for verification
 
     // Filter the data for the specified conditions: status = "DNF" and season = 2014
-    let filteredData = data.filter(entry => entry.status === "DNF" && entry.season_x === 2014);
+    let filteredData = jsonData.filter(entry => entry.status === "DNF" && entry.season_x === 2014);
 
     // Count the occurrences of DNF for each location
     let dnfCounts = {};
@@ -26,15 +30,7 @@ d3.json("https://raw.githubusercontent.com/31573/Dr.John/main/DNF_data.json")
       type: "bar",
       text: Object.values(dnfCounts),
       textposition: "auto",
-      hoverinfo: "text",
-      marker: {
-        color: 'rgb(158,202,225)',
-        opacity: 0.6,
-        line: {
-          color: 'rgb(8,48,107)',
-          width: 1.5
-        }
-      }
+      hoverinfo: "text"
     };
 
     // Create data array
@@ -56,7 +52,19 @@ d3.json("https://raw.githubusercontent.com/31573/Dr.John/main/DNF_data.json")
     };
 
     // Render the plot to the div tag with id "DNF_plot"
-    Plotly.newPlot("DNF_plot", data_points, layout);
+    Plotly.newPlot("DNF_plot", data_points, layout).then(function(gd) {
+      Plotly.toImage(gd, { format: 'png', width: 800, height: 600 })
+        .then(function(url) {
+          let a = document.createElement('a');
+          a.href = url;
+          a.download = 'DNF_plot.png';
+          document.body.appendChild(a);
+          a.click();
+        })
+        .catch(function(err) {
+          console.error('Error saving plot as image:', err);
+        });
+    });
   })
   .catch(function(error) {
     // This function will be executed if there's an error fetching the data
