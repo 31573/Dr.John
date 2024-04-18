@@ -1,5 +1,89 @@
 let seasons=["2014","2015","2016","2017","2018","2019"];
+
+function teamChanged(team){
+  console.log(team);
+  d3.json("https://raw.githubusercontent.com/31573/Dr.John/main/meta_data_inclusive_output.json").then(function(data){
+    //empty lists to collect data
+    let teamData = [];
+    let team_DNFs = [];
+    
+    //for loops filtering for team
+    for (let i = 0; i < data.length; i++) {
+      let row = data[i];
+      if (row.team === team) {teamData.push(row)};
+    };
+    
+    //for loop filtering for DNF
+    for (let i =0;i<teamData.length;i++) {
+      let item = teamData[i];
+      if (item.status !== "F") {team_DNFs.push(item.season)}
+    };
+    
+    function teamPlot(team){
+      // Initialize an empty object to store counts-----------------------------------------------------------------
+      let counts = {};
+
+      // Iterate over the dnf array
+      team_DNFs.forEach(function(z) {
+        // If the location is not already a key in the counts object, initialize it with a count of 1
+        if (!counts[z]) {
+            counts[z] = 1;
+        } else {
+            // If the location is already a key, increment its count
+            counts[z]++;
+        }
+    });
+      
   
+      let years = Object.keys(counts).map(key => parseInt(key));
+      
+      // Create data for the bar graph----------------------------------------------------------------------------------------
+      let trace1 = {
+        x: years,
+        y: Object.values(counts),
+        type: "scatter"
+      };
+
+      let data_points = [trace1];
+      // Apply a title to the layout
+      let layout = {
+        title: "DNFs by Year for " + team,
+        xaxis: {
+            title: "Year"
+        },
+        yaxis: {
+            title: "DNF Count"
+        }
+      };
+
+      Plotly.newPlot("line_plot",data_points,layout);
+  };
+ // ------------------------------------------------------------------
+//DROPDOWN TEAM FUNCTION
+// ------------------------------------------------------------------
+// function for matching the team from the dropdown to dataset
+  function selTeam(dropDownTeam){
+      let teamList=["Mercedes","RedBull","McLaren","Ferrari","ToroRosso","ForceIndia","Williams","Sauber", "Caterham", "Marussia"
+      , "LotusF1", "ManorMarussia",  "Renault", "HaasF1Team",  "AlfaRomeo", "RacingPoint"];
+
+      for (let i = 0; i<teamList.length ;i++){
+        if (dropDownTeam === teamList[i]){
+          console.log("Collecting Data for "+ teamList[i]);
+          console.log()
+          teamPlot(dropDownTeam);
+        }  ;
+        //else {con;sole.log(0)};
+      };
+    };
+  //call function for selecting year
+  selTeam(team)
+  
+    }
+  ) 
+};
+
+
+
 function optionChanged(year){
   d3.json("https://raw.githubusercontent.com/31573/Dr.John/main/meta_data_inclusive_output.json").then(function(data){
     // ------------------------------------------------------------------
@@ -48,6 +132,7 @@ function optionChanged(year){
     
     };
 
+  
     // ------------------------------------------------------------------
     // DNF PLOT
     // ------------------------------------------------------------------

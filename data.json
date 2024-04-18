@@ -1,3 +1,6 @@
 {
-    "seasons":["2014","2015","2016","2017","2018","2019"]
+    "seasons":["2014","2015","2016","2017","2018","2019"],
+    "teams":["Mercedes","RedBull","McLaren","Ferrari","ToroRosso","ForceIndia","Williams","Sauber", "Caterham", "Marussia"
+    , "LotusF1", "ManorMarussia",  "Renault", "HaasF1Team",  "AlfaRomeo", "RacingPoint"]
 }
+
