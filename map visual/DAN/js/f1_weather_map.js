@@ -1,33 +1,5 @@
 const years = [2014, 2015, 2016, 2017, 2018, 2019]
 
-// Define map tiles for each year
-let baseMaps = {};
-let tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-})
-
-for (i = 0; i < years.length; i++) {
-  baseMaps[years[i]] = tiles
-};
-
-console.log(baseMaps)
-
-// Create the map variable.
-let myMap = L.map("map", {
-  center: [43.7347, 7.42056],
-  zoom: 7,
-  layers: [baseMaps["2014"]] // Initial base map
-});
-
-markersGroup = L.layerGroup()
-markersGroup.addTo(baseMaps);
-
-
-
-// L.control.layers(baseMaps, {
-//   collapsed: true,
-// }).addTo(myMap);
-
 d3.json("data/race_loc_wea_ret.json").then(function(data) {
   console.log('Data:', data);
   console.log(data[0].main)
@@ -88,8 +60,34 @@ function variables(all_tracks) {
         
 }
 }
+// Define map tiles for each year
+let baseMaps = {}
 
-variable_years(2014)
+let world = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+})
+
+// for (i = 0; i < years.length; i++) {
+//   baseMaps[years[i]] = tiles
+// };
+
+// console.log(baseMaps)
+
+// Create the map variable.
+let myMap = L.map("map", {
+  center: [43.7347, 7.42056],
+  zoom: 7,
+  layers: [world] // Initial base map
+});
+
+baseMaps.addTo(myMap)
+
+markersGroup = L.layerGroup()
+markersGroup.addTo(myMap)
+
+L.control.layers(baseMaps, null, {
+  collapsed: false,
+}).addTo(myMap);
 
 // Xpert Learning Assistant helped me with the code below:
 // Create radio buttons to switch between base maps
@@ -98,7 +96,9 @@ radioButtons.forEach(function(radio) {
   radio.addEventListener('change', function() {
     var selectedYear = this.value;
     map.removeLayer(baseMaps[Object.keys(baseMaps).find(key => key !== selectedYear)]);
-    map.addLayer(baseMaps[selectedYear]);
+    map.addLayer(baseMaps[selectedYear])
+    variable_years(selectedYear)
+    markersGroup.addTo(myMap);
   });
 });
   }})

@@ -1,5 +1,5 @@
 function charts(year) {
-  d3.json("data/race_loc_wea_ret.json").then(function(data) {
+  d3.json("./data/race_loc_wea_ret.json").then(function(data) {
     console.log('Data:', data);
     console.log('Season:', data[0].season)
     
